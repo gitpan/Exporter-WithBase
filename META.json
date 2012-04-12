@@ -1,0 +1,51 @@
+{
+   "abstract" : "Like Exporter, but add a '-base' flag to declare a class as a child",
+   "author" : [
+      "Olivier Mengue <dolmen@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.300010, CPAN::Meta::Converter version 2.120630",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Exporter-WithBase",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.30"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Exporter" : "5.57",
+            "perl" : "5.006",
+            "strict" : "0",
+            "warnings" : "0"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "File::Find" : "0",
+            "File::Temp" : "0",
+            "Test::More" : "0",
+            "t::lib::Child1" : "0",
+            "t::lib::Mother" : "0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "homepage" : "https://github.com/dolmen/p5-Exporter-WithBase",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/dolmen/p5-Exporter-WithBase.git",
+         "web" : "https://github.com/dolmen/p5-Exporter-WithBase"
+      }
+   },
+   "version" : "0.01"
+}
+
