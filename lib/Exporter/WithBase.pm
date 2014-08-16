@@ -2,11 +2,8 @@ use strict qw<vars subs>; # no refs
 use warnings;
 
 package Exporter::WithBase;
-{
-  $Exporter::WithBase::VERSION = '0.01';
-}
 # ABSTRACT: Like Exporter, but add a '-base' flag to declare a class as a child
-
+$Exporter::WithBase::VERSION = '0.02';
 use Exporter 5.57 ();
 
 sub import
@@ -63,11 +60,11 @@ C<@ISA>.
 
 =head1 SEE ALSO
 
-L<import::Base>, L<parent>, L<Mojo:Base>.
+L<import::Base>, L<parent>, L<Mojo::Base>.
 
 =head1 AUTHOR
 
-Olivier MenguE<eacute>, L<mailto:dolmen@cpan.org>.
+Olivier MenguE<eacute>, E<lt>L<dolmen@cpan.org|mailto:dolmen@cpan.org>E<gt>.
 
 =head1 COPYRIGHT & LICENSE
 
